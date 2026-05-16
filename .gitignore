@@ -1,0 +1,45 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# renv
+renv/library/
+renv/staging/
+renv/.cache/
+renv/local/
+renv/sandbox/
+
+# Stan compile artifacts
+stan/*.exe
+stan/*.hpp
+stan/sancocho_dm
+stan/*.o
+stan/*.d
+*.dSYM/
+
+# Datos intermedios — los reconstruye R/01_data_prep.R
+data/processed/
+
+# Posterior outputs — grandes
+output/posterior/
+output/**/*.csv
+!output/posterior_summary*.csv
+!output/forecast_2026.csv
+!output/backtest_summary.csv
+!output/atlasintel_sensitivity.csv
+!output/forecast_2026_con_atlasintel.csv
+
+# Logs
+logs/
+*.log
+
+# Snapshots de sesión (uno por corrida — se acumulan)
+output/sessions/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/settings.json

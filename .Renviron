@@ -1,0 +1,5 @@
+# Toolchain Rtools 4.4 en el PATH (compilación de CmdStan / paquetes fuente)
+PATH="C:\rtools44\usr\bin;C:\rtools44\x86_64-w64-mingw32.static.posix\bin;${PATH}"
+
+# Ruta de CmdStan — persiste entre reinicios de R
+CMDSTAN="C:/cmdstan/cmdstan-2.38.0"
