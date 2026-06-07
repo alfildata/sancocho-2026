@@ -43,9 +43,9 @@ E <- list(
   list(yr = "1994", real = 50.57 / (50.57 + 48.45), baseA = 45.30, baseB = 44.98,
        blocs = list(bl(3.79, "lean_A"), bl(5.93, "neutral"))),
   list(yr = "1998", real = 46.58 / (46.58 + 50.34), baseA = 34.78, baseB = 34.37,           # reverso: A perdió
-       blocs = list(bl(26.77, "lean_B"), bl(1.82, "lean_B"), bl(2.26, "neutral"))),
+       blocs = list(bl(26.77, "neutral"), bl(1.82, "lean_B"), bl(2.26, "neutral"))),
   list(yr = "2010", real = 69.13 / (69.13 + 27.47), baseA = 46.68, baseB = 21.51,           # landslide A
-       blocs = list(bl(10.11, "end_A"), bl(6.13, "end_A"), bl(4.38, "end_A"), bl(9.14, "lean_B"), bl(0.52, "neutral"))),
+       blocs = list(bl(10.11, "end_A"), bl(6.13, "end_A"), bl(4.38, "end_A"), bl(9.14, "neutral"), bl(0.52, "neutral"))),
   list(yr = "2014", real = 44.99 / (44.99 + 50.99), baseA = 29.28, baseB = 25.72,           # realineamiento: A perdió
        blocs = list(bl(15.52, "end_A"), bl(15.22, "lean_B"), bl(8.27, "lean_B"))),
   list(yr = "2018", real = 54.03 / (54.03 + 41.77), baseA = 39.36, baseB = 25.09,
